@@ -24,10 +24,11 @@
       @import "tailwindcss";
     </style>
   </head>
-  <body class="">
-    <section class="banner">
+  <body class="max-sm:p-4">
+    <!-- Banner Section -->
+    <section class="banner mt-10">
       <div
-        class="banner-container container border-2 border-b-blue-900-50 grid grid-cols-2 items-center mx-auto justify-center">
+        class="banner-container container max-sm:text-center grid md:grid-cols-2 items-center mx-auto justify-center">
         <div class="banner-right">
           <h1 class="text-7xl font-bold mb-7">
             It's blessed <br />Ramadan time <br />at The Date House
@@ -44,8 +45,47 @@
             ></span>
           </button>
         </div>
-        <div class="banner-left">
+        <div class="banner-left flex justify-end items-end relative">
           <img src="./images/banner.png" alt="" />
+          <!-- Rating -->
+          <div
+            class="bg-white flex items-center justify-center gap-2 rounded-2xl w-[200px] py-3 absolute bottom-5 left-60 shadow-md">
+            <img src="./images/circles.png" alt="" />
+            <div>
+              <h2 class="font-bold text-4xl">5.00</h2>
+              <p class="text-gray-600">Trust Pilot Ratings</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Featured Section -->
+    <section class="feature text-center">
+      <h1>Our Featured Products</h1>
+      <p>
+        Experience the finest selection of dates and Ramadan specialties,
+        carefully curated to make your blessed month memorable and nourishing.
+      </p>
+      <div class="cards grid grid-cols-4">
+        <div class="single-card w-[270px] text-center border-2">
+          <img class="border" src="./images/tea-1.png" alt="" />
+          <h3>Fresh Medjool Dates</h3>
+          <p>Can be stuffed with nuts or enjoyed fresh</p>
+        </div>
+        <div class="single-card w-[270px] text-center">
+          <img src="./images/tea-1.png" alt="" />
+          <h3>Fresh Medjool Dates</h3>
+          <p>Can be stuffed with nuts or enjoyed fresh</p>
+        </div>
+        <div class="single-card w-[270px] text-center">
+          <img src="./images/tea-1.png" alt="" />
+          <h3>Fresh Medjool Dates</h3>
+          <p>Can be stuffed with nuts or enjoyed fresh</p>
+        </div>
+        <div class="single-card w-[270px] text-center">
+          <img src="./images/tea-1.png" alt="" />
+          <h3>Fresh Medjool Dates</h3>
+          <p>Can be stuffed with nuts or enjoyed fresh</p>
         </div>
       </div>
     </section>
