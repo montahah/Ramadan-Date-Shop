@@ -21,7 +21,6 @@
       * {
         font-family: "Manrope", sans-serif;
       }
-      @import "tailwindcss";
     </style>
   </head>
   <body class="max-sm:p-4">
@@ -30,7 +29,7 @@
       <div
         class="banner-container container max-sm:text-center grid md:grid-cols-2 items-center mx-auto justify-center">
         <div class="banner-right">
-          <h1 class="text-7xl font-bold mb-7">
+          <h1 class="max-sm:text-5xl md:text-7xl font-bold mb-7">
             It's blessed <br />Ramadan time <br />at The Date House
           </h1>
           <p class="text-gray-500 font-medium mb-7">
@@ -45,7 +44,7 @@
             ></span>
           </button>
         </div>
-        <div class="banner-left flex justify-end items-end relative">
+        <div class="banner-left flex relative max-w-7xl justify-center">
           <img src="./images/banner.png" alt="" />
           <!-- Rating -->
           <div
@@ -69,26 +68,22 @@
       </p>
       <div
         class="cards grid md:grid-cols-4 gap-4 items-center mx-auto container justify-items-center">
-        <div
-          class="single-card w-[270px] text-center px-2 py-5 bg-gray-100 rounded-2xl">
+        <div class="single-card text-center px-2 py-5 bg-gray-100 rounded-2xl">
           <img class="mx-auto mb-4" src="./images/tea-1.png" alt="" />
           <h3 class="text-2xl font-black mb-2.5">Fresh Medjool Dates</h3>
           <p class="text-gray-500">Can be stuffed with nuts or enjoyed fresh</p>
         </div>
-        <div
-          class="single-card w-[270px] text-center px-2 py-5 bg-gray-100 rounded-2xl">
+        <div class="single-card text-center px-2 py-5 bg-gray-100 rounded-2xl">
           <img class="mx-auto mb-4" src="./images/tea-2.png" alt="" />
           <h3 class="text-2xl font-black mb-2.5">Date Smoothie</h3>
           <p class="text-gray-500">Blended with milk, honey, and almonds</p>
         </div>
-        <div
-          class="single-card w-[270px] text-center px-2 py-5 bg-gray-100 rounded-2xl">
+        <div class="single-card text-center px-2 py-5 bg-gray-100 rounded-2xl">
           <img class="mx-auto mb-4" src="./images/tea-3.png" alt="" />
           <h3 class="text-2xl font-black mb-2.5">Stuffed Dates</h3>
           <p class="text-gray-500">Filled with premium nuts and chocolate</p>
         </div>
-        <div
-          class="single-card w-[270px] text-center px-2 py-5 bg-gray-100 rounded-2xl">
+        <div class="single-card text-center px-2 py-5 bg-gray-100 rounded-2xl">
           <img class="mx-auto mb-4" src="./images/tea-4.png" alt="" />
           <h3 class="text-2xl font-black mb-2.5">Date Milk Shake</h3>
           <p class="text-gray-500">Creamy blend with dates and cardamom</p>
@@ -96,11 +91,12 @@
       </div>
     </section>
     <!-- Quality Section -->
-    <section class="container grid grid-cols-2 mb-[130px] gap-10 mx-auto">
+    <section
+      class="container grid grid-cols-1 md:grid-cols-2 mb-[130px] gap-10 mx-auto">
       <div class="quality-image grid grid-cols-2 grid-rows-3 gap-7">
         <div class="rounded-xl bg-orange-200"></div>
         <div
-          class="rounded-xl bg-gray-300 row-span-2 flex justify-center items-center p-12">
+          class="rounded-xl bg-gray-300 row-span-2 flex justify-center items-center">
           <img src="./images/fresh-1.png" alt="" />
         </div>
         <div
@@ -109,11 +105,11 @@
         </div>
         <div class="rounded-xl bg-orange-200"></div>
       </div>
-      <div class="quality-content text-left space-y-5 w-[580px]">
+      <div class="quality-content max-sm:text-center text-left space-y-5">
         <h2 class="text-4xl font-black">Great Dates <br />Blessed Ramadan</h2>
         <p class="text-gray-500 mb-12">
           The meaning of dates in Islamic tradition represents the blessed food
-          Prophet Muhammad (SAW) used to break his fast. Establishing in 2026,
+          Prophet Muhammad (SAW) used to break his fast. Establishing in 2026.
           The Date House has been deeply appreciated by customers because of
           premium quality and unique customized service for the holy month of
           Ramadan.
@@ -134,5 +130,175 @@
         </div>
       </div>
     </section>
+    <!-- Customer Section -->
+    <section
+      class="container grid grid-cols-2 justify-items-center mx-auto bg-orange-500 py-20 items-center rounded-md mb-[100px]">
+      <div class="customer-content">
+        <h2 class="text-4xl font-bold pb-5 text-white">
+          Meet Our Valued <br />Customers
+        </h2>
+        <p class="text-white pb-20">
+          Discover why families across Dhaka trust us <br />Ramadan essentials.
+        </p>
+        <button class="px-3 py-2 bg-white text-orange-500 rounded-md font-bold">
+          Show All
+        </button>
+      </div>
+      <div class="customer-card relative">
+        <div
+          class="single-customer-card text-gray-600 bg-white p-10 w-[450px] rounded-xl relative mb-10 opacity-50">
+          <p>
+            "We are receiving the best and most authentic dates for our family
+            Iftar. The Date House made our Ramadan truly special and blessed."
+          </p>
+          <p class="font-black mt-5 mb-2">Fatima Rahman</p>
+          <p>Homemaker</p>
+          <img
+            class="absolute -top-5 -left-5"
+            src="./images/client.png"
+            alt="" />
+        </div>
+        <div
+          class="single-customer-card text-gray-600 bg-white p-10 w-[450px] rounded-xl relative opacity-50">
+          <p>
+            "We are receiving the best and most authentic dates for our family
+            Iftar. The Date House made our Ramadan truly special and blessed."
+          </p>
+          <p class="font-black mt-5 mb-2">Fatima Rahman</p>
+          <p>Homemaker</p>
+          <img
+            class="absolute -top-5 -left-5"
+            src="./images/client.png"
+            alt="" />
+        </div>
+        <div class="absolute top-30 -left-30">
+          <div
+            class="single-customer-card text-gray-600 bg-white p-10 w-[450px] rounded-xl relative">
+            <p>
+              "We are receiving the best and most authentic dates for our family
+              Iftar. The Date House made our Ramadan truly special and blessed."
+            </p>
+            <p class="font-black mt-5 mb-2">Fatima Rahman</p>
+            <p>Homemaker</p>
+            <img
+              class="absolute -top-5 -left-5"
+              src="./images/client.png"
+              alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Event Section -->
+    <section class="container text-center mx-auto mb-[130px]">
+      <h2 class="mb-5 text-4xl font-black">News & Events</h2>
+      <p class="text-gray-500 mb-15">
+        Stay updated with our Ramadan specials, gift hampers, and limited-time
+        offers throughout the blessed month.
+      </p>
+      <div class="event-cards grid grid-cols-3 text-left justify-items-center">
+        <div class="border rounded-md max-w-xs p-5">
+          <img class="mb-5" src="./images/news-3.png" alt="" />
+          <div class="space-y-2">
+            <p class="text-gray-400">Feb 05, 2027</p>
+            <h3 class="text-2xl font-bold">
+              Ramadan Gift <br />Hampers Available
+            </h3>
+            <p class="text-gray-500">
+              Premium date boxes with Ajwa, Medjool, and Sukkary varieties
+              perfect for gifting.
+            </p>
+            <p class="font-bold">Learn More</p>
+          </div>
+        </div>
+        <div class="border rounded-md max-w-xs p-5">
+          <img class="mb-5" src="./images/news-3.png" alt="" />
+          <div class="space-y-2">
+            <p class="text-gray-400">Feb 05, 2027</p>
+            <h3 class="text-2xl font-bold">
+              Ramadan Gift <br />Hampers Available
+            </h3>
+            <p class="text-gray-500">
+              Premium date boxes with Ajwa, Medjool, and Sukkary varieties
+              perfect for gifting.
+            </p>
+            <p class="font-bold">Learn More</p>
+          </div>
+        </div>
+        <div class="border rounded-md max-w-xs p-5">
+          <img class="mb-5" src="./images/news-3.png" alt="" />
+          <div class="space-y-2">
+            <p class="text-gray-400">Feb 05, 2027</p>
+            <h3 class="text-2xl font-bold">
+              Ramadan Gift <br />Hampers Available
+            </h3>
+            <p class="text-gray-500">
+              Premium date boxes with Ajwa, Medjool, and Sukkary varieties
+              perfect for gifting.
+            </p>
+            <p class="font-bold">Learn More</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="border bg-orange-100">
+      <section class="container my-[130px] mx-auto">
+        <div class="flex justify-between mb-10">
+          <div><img src="./images/cup.png" alt="" /></div>
+          <div class="flex justify-center items-center gap-10">
+            <p>Ready to prepare for Ramadan?</p>
+            <button
+              class="bg-amber-500 px-5 py-3 text-white rounded-sm font-bold">
+              Get Started
+            </button>
+          </div>
+        </div>
+        <div class="grid grid-cols-4 justify-around justify-items-center">
+          <div>
+            <p class="text-2xl font-bold mb-3">Quick Links</p>
+            <ul class="text-gray-500 space-y-2">
+              <li><a href="">Home</a></li>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Ramadan Specials</a></li>
+              <li><a href="">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="text-2xl font-bold mb-3">Quick Links</p>
+            <ul class="text-gray-500 space-y-2">
+              <li><a href="">Home</a></li>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Ramadan Specials</a></li>
+              <li><a href="">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="text-2xl font-bold mb-3">Quick Links</p>
+            <ul class="text-gray-500 space-y-2">
+              <li><a href="">Home</a></li>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Ramadan Specials</a></li>
+              <li><a href="">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+          <div class="space-y-5">
+            <p class="text-2xl font-bold">Subscribe to <br />our newsletter</p>
+            <div>
+              <input placeholder="Email address" type="text" />
+              <hr class="w-[200px]" />
+            </div>
+            <div class="flex gap-4 text-gray-500">
+              <a href=""><i class="fa-brands fa-apple"></i></a>
+              <a href="#"><i class="fa-brands fa-app-store-ios"></i></a>
+              <a href="#"><i class="fa-brands fa-android"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-20">
+          <small>© 2026 datehouse.com - All rights reserved.</small>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
